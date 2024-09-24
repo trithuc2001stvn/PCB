@@ -1,0 +1,23 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (title_block
+    (title "Title of the project")
+    (date "2024-01-02")
+    (rev "rev01")
+    (company "Fresu Electronics LLC")
+    (comment 3 "info@dariofresu.com")
+    (comment 4 "Dario Fresu")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
