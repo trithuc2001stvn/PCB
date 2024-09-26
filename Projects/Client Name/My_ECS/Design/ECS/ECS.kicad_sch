@@ -1,0 +1,170 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (title_block
+    (title "My ECS")
+    (date "2024-09-24")
+    (company "My Company")
+    (comment 1 "0368452791")
+    (comment 2 "trithuc2001stvn@gmail.com")
+    (comment 3 "Nguyen Tri Thuc")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "My ECS" (at 116.84 36.83 0)
+    (effects (font (size 10 10) (thickness 2) bold) (justify left bottom))
+    (uuid 685fb2b1-f2fb-47e1-928d-28afd895d8d0)
+  )
+
+  (sheet (at 113.03 93.98) (size 26.67 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 09b0a4ba-170c-409a-8b13-f44b5069ffd9)
+    (property "Sheetname" "MOSTFETs" (at 113.03 93.2684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MOSTFETs.kicad_sch" (at 113.03 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ECS"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 34.29 93.98) (size 26.67 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0e67a207-caa2-44d5-8cec-b2178f009717)
+    (property "Sheetname" "MCU" (at 34.29 93.2684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 34.29 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 34.29 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "ECS"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 71.12 93.98) (size 26.67 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 24e529db-5fe7-41ed-8ca4-5464f7910804)
+    (property "Sheetname" "MOSTFET DRIVER" (at 71.12 93.2684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MOSTFET DRIVER.kicad_sch" (at 71.12 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 71.12 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "ECS"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 71.12 54.61) (size 26.67 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 43c9a637-91b1-49a7-b290-71bac1e07805)
+    (property "Sheetname" "BLOCK DIAGRAM" (at 71.12 53.8984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "BLOCK DIAGRAM.kicad_sch" (at 71.12 79.3246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ECS"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 34.29 54.61) (size 25.4 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5e1f2bdc-3db8-40b4-b6e5-f9ae47336e73)
+    (property "Sheetname" "OVERVIEW" (at 34.29 53.8984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "OVERVIEW.kicad_sch" (at 34.29 79.3246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ECS"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 34.29 130.81) (size 27.94 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 65271be1-1c51-4531-bd84-59a1a6a93681)
+    (property "Sheetname" "MECHANICAL" (at 34.29 130.0984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MECHANICAL.kicad_sch" (at 34.29 156.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ECS"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "9"))
+      )
+    )
+  )
+
+  (sheet (at 189.23 93.98) (size 26.67 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ceee1826-91e6-441d-a317-f9faa0e450d7)
+    (property "Sheetname" "CAN" (at 189.23 93.2684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CAN.kicad_sch" (at 189.23 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ECS"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 151.13 93.98) (size 27.94 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e1b6780f-8af7-4e59-883f-eea9f1d322b8)
+    (property "Sheetname" "FILLTERS" (at 151.13 93.2684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "FILLTERS.kicad_sch" (at 151.13 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ECS"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "7"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
